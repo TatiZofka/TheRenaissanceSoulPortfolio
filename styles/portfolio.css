@@ -1,6 +1,7 @@
 :root {
   --headline-font: "Anton", sans-serif;
   --default-font: "Poppins", sans-serif;
+  --highlight-color: #22499a;
 }
 
 .landing img {
@@ -29,9 +30,5 @@ h6 {
 }
 
 .blue {
-  color: #22499a;
-}
-
-.projects img {
-  max-width: 250px;
+  color: var(--highlight-color);
 }
