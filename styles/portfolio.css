@@ -4,7 +4,6 @@
   --highlight-color: #22499a;
   --primary-color: #cecec6;
   --secondary-color: #000000;
-  --third-color: #ffffff;
 }
 
 .landing img {
@@ -42,4 +41,17 @@ h6 {
   text-align: justify;
   font-family: var(--default-font);
   font-size: 20px;
+}
+
+.contact {
+  background-color: var(--highlight-color);
+  color: var(--primary-color);
+  font-family: var(--default-font);
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 50px;
 }
