@@ -1,3 +1,33 @@
-body {
-  background: blueviolet;
+:root {
+  --headline-font: "Anton", sans-serif;
+  --default-font: "Poppins", sans-serif;
+}
+
+.landing img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--headline-font);
+  text-align: center;
+  font-weight: bold;
+}
+
+.work {
+  background-color: #cecec6;
+}
+
+.work p {
+  font-family: var(--default-font);
+  text-align: center;
+  padding: 10px 20%;
+}
+
+.blue {
+  color: #22499a;
 }
