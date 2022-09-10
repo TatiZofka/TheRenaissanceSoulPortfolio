@@ -57,9 +57,16 @@ h6 {
 }
 
 @media (max-width: 900px) {
+  #work-quotes {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .about {
-    font-size: 10px;
+    font-size: 1rem;
     text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .photo {
@@ -72,5 +79,11 @@ h6 {
 
   .contact a {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #machu-picchu {
+    margin-left: 30px;
   }
 }
