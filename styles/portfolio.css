@@ -1,13 +1,10 @@
 :root {
   --headline-font: "Anton", sans-serif;
   --default-font: "Poppins", sans-serif;
+  --handwritten-font: "Qwitcher Grypen", cursive;
   --highlight-color: #22499a;
   --primary-color: #cecec6;
   --secondary-color: #000000;
-}
-
-.landing img {
-  width: 100%;
 }
 
 h1,
@@ -21,11 +18,44 @@ h6 {
   font-weight: bold;
 }
 
-.work {
+a {
+  text-decoration: none;
+  font-size: 50px;
+}
+
+.landing img {
+  width: 100%;
+}
+
+.beige-section {
   background-color: var(--primary-color);
 }
 
-.work p {
+.job {
+  font-family: var(--handwritten-font);
+  font-weight: bold;
+  font-size: 50px;
+  color: #c6e2ff;
+  background-color: #000000;
+  animation: neon 0.08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px rgba(30, 132, 242, 1);
+  }
+}
+
+.beige-section p {
   font-family: var(--default-font);
   text-align: center;
   padding: 10px 20%;
@@ -33,9 +63,10 @@ h6 {
 
 .blue {
   color: var(--highlight-color);
+  font-weight: bold;
 }
 
-.about {
+.black-section {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   text-align: justify;
@@ -43,17 +74,12 @@ h6 {
   font-size: 20px;
 }
 
-.contact {
+.blue-section {
   background-color: var(--highlight-color);
   color: var(--primary-color);
   font-family: var(--default-font);
   font-size: 20px;
   text-align: center;
-}
-
-.contact a {
-  text-decoration: none;
-  font-size: 50px;
 }
 
 @media (max-width: 900px) {
@@ -62,7 +88,7 @@ h6 {
     padding-right: 30px;
   }
 
-  .about {
+  .black-section {
     font-size: 1rem;
     text-align: center;
     padding-left: 30px;
@@ -73,11 +99,15 @@ h6 {
     margin-bottom: 30px;
   }
 
-  .contact {
+  #machu-picchu {
+    margin-top: 20px;
+  }
+
+  .blue-section {
     font-size: 15px;
   }
 
-  .contact a {
+  .blue-section a {
     font-size: 20px;
   }
 }
