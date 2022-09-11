@@ -22,6 +22,7 @@ h6 {
 a {
   text-decoration: none;
   color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 a:hover {
@@ -89,7 +90,6 @@ nav li {
 .beige-section p {
   font-family: var(--default-font);
   text-align: center;
-  padding: 10px 20%;
 }
 
 .blue {
@@ -116,6 +116,11 @@ nav li {
 .icon {
   font-size: 60px;
   margin-bottom: 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 30px 20%;
 }
 
 @media (max-width: 900px) {

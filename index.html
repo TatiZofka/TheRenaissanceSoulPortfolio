@@ -31,19 +31,25 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>The Renaissance Soul Portfolio</title>
+    <title>Tati: The Renaissance Soul Portfolio</title>
+    <meta
+      name="description"
+      content="Tati is a women of too many passions to
+    pick one. Let's explore the carreer journey of the true Renaissance Soul!"
+    />
   </head>
   <body>
     <div class="landing">
       <nav class="d-flex justify-content-center">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="#my-work">My Work</a></li>
-          <li><a href="#my-story">My Story</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="index.html" class="active" title="Homepage">Home</a></li>
+          <li><a href="#my-work" title="Projects">My Work</a></li>
+          <li><a href="#my-story" title="About Me">My Story</a></li>
+          <li><a href="#contact" title="Contact Me">Contact</a></li>
         </ul>
       </nav>
-      <img src="/images/wide_black.png" alt="My Photo" />
+      <h1 class="d-none">Tati: Carreer Journey of the True Renaissance Soul</h1>
+      <img src="/images/wide_black.png" alt="Renaissance Soul cover" />
     </div>
     <div class="beige-section" id="my-work">
       <h1 class="pt-5">MY WORK</h1>
@@ -64,20 +70,20 @@
       <div class="container projects">
         <div class="mx-3 pb-5 row">
           <div class="photo col-md-4">
-            <a href="/jobs/jobs.html"
+            <a href="/jobs/jobs.html" title="My traditional Jobs"
               ><img
                 class="img-fluid shadow rounded mb-3 p-2"
                 src="/images/bills_bw.jpg"
                 onmouseover="this.src='/images/bills_cl.jpg'"
                 onmouseout="this.src='/images/bills_bw.jpg'"
-                alt="jobs that pay the bills"
+                alt="my traditional jobs"
                 id="bills-bw"
               />
               <h2 class="job">Jobs that pay My Bills</h2>
             </a>
           </div>
           <div class="photo col-md-4">
-            <a href="#"
+            <a href="#" title="My Passions"
               ><img
                 class="img-fluid shadow rounded mb-3 p-2"
                 src="/images/passion_bw.jpg"
@@ -89,13 +95,13 @@
             </a>
           </div>
           <div class="photo col-md-4">
-            <a href="#"
+            <a href="#" title="My Hobbies"
               ><img
                 class="img-fluid shadow rounded mb-3 p-2"
                 src="/images/hobby_bw.jpg"
                 onmouseover="this.src='/images/hobby_cl.jpg'"
                 onmouseout="this.src='/images/hobby_bw.jpg'"
-                alt="still learning"
+                alt="my hobbies"
               />
               <h2 class="job">Hobbies I am still polishing</h2>
             </a>
@@ -131,7 +137,7 @@
               class="img-fluid shadow rounded"
               id="machu-picchu"
               src="/images/about_me.jpg"
-              alt="my photo"
+              alt="Machu Picchu photo"
             />
           </div>
         </div>
@@ -142,7 +148,11 @@
       <div class="container">
         <div class="row pb-5">
           <div class="col-4">
-            <a href="https://www.instagram.com/tati.zofka/" target="_blank">
+            <a
+              href="https://www.instagram.com/tati.zofka/"
+              target="_blank"
+              title="Tati's Instagram"
+            >
               <div class="col">
                 <i class="fa-brands fa-instagram icon"></i>
               </div>
@@ -153,6 +163,7 @@
             <a
               href="https://www.youtube.com/channel/UCDkNsRUhktO8D2woqdjh0dg"
               target="_blank"
+              title="Tati's Youtube channel"
             >
               <div class="col">
                 <i class="fa-brands fa-youtube icon"></i>
@@ -161,7 +172,10 @@
             </a>
           </div>
           <div class="col-4">
-            <a href="mailto:tatianaziakova@gmail.com">
+            <a
+              href="mailto:tatianaziakova@gmail.com"
+              title="tatianaziakova@gmail.com"
+            >
               <div class="col">
                 <i class="fa-solid fa-envelope icon"></i>
               </div>
@@ -171,5 +185,18 @@
         </div>
       </div>
     </div>
+    <footer class="beige-section">
+      <p>
+        This page was coded by Tati 👩‍💻 it is regularly updated 👉 and is fully
+        <a
+          href="https://github.com/TatiZofka/TheRenaissanceSoulPortfolio"
+          class="blue"
+          target="_blank"
+          title="GitHub repository"
+          >open-sourced</a
+        >
+        🧐.
+      </p>
+    </footer>
   </body>
 </html>
