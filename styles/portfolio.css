@@ -24,6 +24,10 @@ a {
   color: var(--primary-color);
 }
 
+a:hover {
+  color: var(--neon-color);
+}
+
 nav {
   background-color: var(--secondary-color);
   font-family: var(--handwritten-font);
@@ -44,6 +48,10 @@ nav li {
   list-style: none;
   line-height: 20px;
   padding: 0 18px;
+}
+
+.active {
+  color: var(--neon-color);
 }
 
 .landing img {
@@ -111,6 +119,10 @@ nav li {
 }
 
 @media (max-width: 900px) {
+  nav {
+    font-size: 30px;
+  }
+
   #work-quotes {
     padding-left: 30px;
     padding-right: 30px;
