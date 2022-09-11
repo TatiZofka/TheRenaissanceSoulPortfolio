@@ -2,9 +2,10 @@
   --headline-font: "Anton", sans-serif;
   --default-font: "Poppins", sans-serif;
   --handwritten-font: "Qwitcher Grypen", cursive;
-  --highlight-color: #22499a;
   --primary-color: #cecec6;
   --secondary-color: #000000;
+  --highlight-color: #22499a;
+  --neon-color: #c6e2ff;
 }
 
 h1,
@@ -23,6 +24,28 @@ a {
   color: var(--primary-color);
 }
 
+nav {
+  background-color: var(--secondary-color);
+  font-family: var(--handwritten-font);
+  font-weight: bold;
+  font-size: 40px;
+  color: var(--neon-color);
+  animation: neon 0.08s ease-in-out infinite alternate;
+  padding-top: 15px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  padding: 0 18px;
+}
+
 .landing img {
   width: 100%;
 }
@@ -35,8 +58,8 @@ a {
   font-family: var(--handwritten-font);
   font-weight: bold;
   font-size: 50px;
-  color: #c6e2ff;
-  background-color: #000000;
+  color: var(--neon-color);
+  background-color: var(--secondary-color);
   animation: neon 0.08s ease-in-out infinite alternate;
 }
 
