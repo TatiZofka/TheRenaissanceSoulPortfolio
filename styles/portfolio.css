@@ -31,7 +31,7 @@ nav {
   font-size: 40px;
   color: var(--neon-color);
   animation: neon 0.08s ease-in-out infinite alternate;
-  padding-top: 15px;
+  padding: 15px 0;
 }
 
 nav ul {
