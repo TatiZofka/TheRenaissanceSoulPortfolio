@@ -132,8 +132,66 @@ footer p {
   margin: 0;
 }
 
-.timeline-img {
-  max-width: 500px;
+.timeline-black-section {
+  background-color: var(--secondary-color);
+  font-family: var(--default-font);
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.timeline-text-left {
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 25%;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+.timeline-img-right {
+  padding-right: 60px;
+}
+
+.button-black {
+  background: var(--highlight-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 20px 15px;
+  border-radius: 30px;
+}
+
+.button-black:hover {
+  background-color: var(--primary-color);
+  color: var(--highlight-color);
+}
+
+.timeline-beige-section {
+  background-color: var(--primary-color);
+  text-align: center;
+}
+
+.timeline-text-right {
+  text-align: justify;
+  font-size: 18px;
+  padding-top: 20%;
+  padding-bottom: 30px;
+  padding-right: 60px;
+}
+
+.timeline-img-left {
+  padding-left: 60px;
+}
+
+.button-beige {
+  background: var(--highlight-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 20px 15px;
+  border-radius: 30px;
+}
+
+.button-beige:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
