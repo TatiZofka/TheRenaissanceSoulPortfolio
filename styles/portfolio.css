@@ -267,12 +267,23 @@ footer p {
   }
 
   .projects {
-    margin-top: 30px;
+    margin-top: 10px;
+  }
+
+  .projects img {
+    margin-top: 20px;
   }
 
   #my-story p {
     padding-left: 15px;
     padding-right: 15px;
+  }
+
+  .timeline-img-right,
+  .timeline-img-left {
+    max-width: 300px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
