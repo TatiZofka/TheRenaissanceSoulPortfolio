@@ -227,6 +227,22 @@ footer p {
   }
 }
 
+@media (max-width: 390px) {
+  nav {
+    font-size: 20px;
+  }
+
+  .black-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #my-story p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 @media (min-width: 1200px) {
   #machu-picchu {
     margin-left: 30px;
