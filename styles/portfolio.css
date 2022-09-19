@@ -142,7 +142,7 @@ footer p {
 .timeline-text-left {
   text-align: justify;
   font-size: 18px;
-  padding-top: 20%;
+  padding-top: 15%;
   padding-bottom: 30px;
   padding-left: 60px;
 }
@@ -224,6 +224,35 @@ footer p {
 
   .icon {
     font-size: 30px;
+  }
+
+  .timeline-black-section .job {
+    font-size: 50px;
+  }
+
+  .timeline-text-left {
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  .timeline-black-section p {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+
+  .timeline-beige-section p {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+  }
+
+  .timeline-img-right,
+  .timeline-img-left {
+    max-width: 450px;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
