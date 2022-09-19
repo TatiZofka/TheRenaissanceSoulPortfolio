@@ -199,11 +199,6 @@ footer p {
     font-size: 30px;
   }
 
-  #work-quotes {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .black-section {
     font-size: 1rem;
     text-align: center;
@@ -211,8 +206,12 @@ footer p {
     padding-right: 30px;
   }
 
-  .photo {
-    margin-bottom: 30px;
+  .job {
+    font-size: 25px;
+  }
+
+  .photo p {
+    font-size: 12px;
   }
 
   #machu-picchu {
